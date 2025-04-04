@@ -1,0 +1,13 @@
+.background {
+  -fx-background-image: url("../images/passageImages/passageBackgroundImages/mainMenu.png");
+  -fx-background-repeat: no-repeat no-repeat;;
+  -fx-background-size: cover, auto;
+  -fx-background-position: center center;
+}
+
+.dungeonBackground {
+  -fx-background-image: url("../images/passageImages/passageBackgroundImages/dungeon.png");
+  -fx-background-repeat: no-repeat no-repeat;;
+  -fx-background-size: cover, auto;
+  -fx-background-position: center center;
+}

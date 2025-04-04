@@ -1,0 +1,12 @@
+.translucentMenuBar {
+  -fx-background-color: rgba(0, 0, 0, 0.5); /* white with 50% opacity */
+}
+
+.translucentMenuBar .menu .label,
+.translucentMenuBar .menu-item .label {
+  -fx-text-fill: white; /* white text */
+}
+
+.context-menu {
+  -fx-background-color: rgba(0, 0, 0, 0.5);
+}

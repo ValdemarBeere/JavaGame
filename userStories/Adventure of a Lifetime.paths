@@ -1,0 +1,196 @@
+Magical Forest
+
+::Entrance
+You look towards the entrance of a vast and magical forest. What glory will this adventure bring?
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Enter the magical forest](Magical Forest)
+
+::Magical Forest
+You have stepped into the forest. The trees around you glow with an arcane aura and you hear the rustling of bushes all around you.
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Check one of the rustling bushes](Just a Squirrel)
+[Continue deeper into the forest](Deeper Magical Forest)
+
+::Just a Squirrel
+You walk towards one of the bushes. As you get close, a squirrel runs out of the bush and up a tree. Maybe it likes shiny things?
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Go back](Magical Forest)
+[Get the squirrel to come down](An Unlikely Helper)
+[crown}
+
+::An Unlikely Helper
+You pull the crown out of your backpack. The squirrel seems intrigued and comes closer. As the squirrel approaches, it pulls a key out from behind a rock and lays it at your feet.
+|/images/items/key.png|
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Thank you little one](Magical Forest)
+{InventoryAction:key}
+
+::Deeper Magical Forest
+You head deeper. The forest growing ever denser. At one point, the forest is so thick that there are only two directions you can choose to walk. One path seems to lead to a clearing, the other seems to lead to more dense forest.
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Go towards the clearing](Clearing)
+[Go down the dense path](A Hostile Encounter)
+[Go back](Magical Forest)
+
+::A Hostile Encounter
+As you venture down the dense path, you spot a hostile looking creature. There appears to be something shiny behind him.
+|/images/passageImages/passageContentImages/crackleClaw.png|
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Fight](Deadly Encounter)
+[Sneak around the creature](Risky, But Not Deadly)
+[Run](Deeper Magical Forest)
+
+::Deadly Encounter
+You attempt to fight the creature but he easily overpowers you. The savage creature does not even think to spare you, as it bites into your neck.
+|/images/passageImages/passageContentImages/crackleClaw.png|
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[What was i thinking?](Death)
+{HealthAction:-100}
+
+::Death
+You have died.
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Restart](Entrance)
+
+::Risky, But Not Deadly
+You manage to sneak around the creature and grab the shiny object. Its a crown!
+|/images/items/crown.png|
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Pick up crown and go back](Deeper Magical Forest)
+{InventoryAction:crown}
+
+::Clearing
+As you head down the path, you spot a blocked off cave entrance with a key lock. What will you do adventurer?
+^/images/passageImages/passageBackgroundImages/caveEntrance.png^
+[Attempt to open the cave entrance](Cave Entrance)
+[key}
+[Go back](Deeper Magical Forest)
+
+::Cave Entrance
+You put the key in the hole and it barely fits. As you twist the key, you hear a clicking sound, and the large door creaks open.
+|/images/items/key.png|
+^/images/passageImages/passageBackgroundImages/caveEntrance.png^
+[Go inside](Trapped)
+[Go back](Deeper Magical Forest)
+
+::Trapped
+As you enter, the cave starts rumbling, and the entrance crumbles, leaving you trapped inside. You must find a new way out.
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Head deeper into the cave](Cave)
+
+::Cave
+The cave is large and damp, with a surprising amount of light. At your feet lays a sword that seems to have been abandoned.
+|/images/items/sword.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Pick up the sword and continue](Troll Encounter)
+{InventoryAction:sword}
+[Go back](Trapped)
+
+::Troll Encounter
+As you swivel your head while walking, looking for an entrance you are alerted by a grunt. You have walked right up to a troll and there is no option but to fight.
+|/images/passageImages/passageContentImages/ogre.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Time to use the sword](First duel)
+{HealthAction:-80}
+
+::First duel
+You thrust the sword into the trolls neck, and with a final burst of energy, the troll knocks you into the cave wall while bleeding out. You survive the encounter, but no unscathed.
+|/images/passageImages/passageContentImages/ogre.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Ouch, but alas, victory is mine!](Getting warmer)
+
+::Getting warmer
+You continue heading ever deeper into the cave. It is getting warmer and warmer. Along one of the cave walls, a chest lies.
+|/images/passageImages/passageContentImages/chest.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Check the chest](Chest)
+[Continue deeper](Lava Cave)
+
+::Chest
+You open the chest and you see a glowing potion.
+|/images/items/potion.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Drink the potion](Health Potion)
+{HealthAction:80}
+[Im not gonna drink that!](Getting warmer)
+
+::Health Potion
+You drink the potion, it tastes horrible, but it suddenly starts mending all of your wounds.
+|/images/items/potion.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[I feel great, Time to head deeper!](Getting warmer)
+
+::Lava Cave
+You venture for hours. You have ventured so deep into the cave that everywhere you look all you see is molten rock.
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[All i can do is go deeper](Deeper Lava Cave)
+[It's too warm, i need to head back](Getting warmer)
+
+::Deeper Lava Cave
+As you continue deeper into the lava cave you spot a dragon, it starts flapping its wings and rushes towards you offensively. It's time you use the experience you gained from your previous encounter!
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Fight!](Dragon fight)
+
+::Dragon fight
+You ready your sword!
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Dodge the dragons rush](Unfortunate)
+[Fight head on](Badly damaged)
+{HealthAction:-70}
+
+::Unfortunate
+You manage to successfully dodge the dragon by rolling out of its path. Unfortunately, you roll into a pool of lava and get completely engulfed.
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Burn](Death)
+{HealthAction:-100}
+
+::Badly damaged
+You plan to strike down the dragon as it flies towards you, unfortunately the sword is too short, and the dragons talons cut deep into your skin, however, you can still fight. The dragon is now within striking distance.
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Strike immediately](Dead Dragon)
+[Wait for an attack, then counter!](Poor choice)
+{HealthAction:-20}
+
+::Poor choice
+The dragon knocks you over with one of his wings. you now look up at the dragon while lying on the ground.
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[I will not die like this!](Dead Dragon)
+[Pretend to be dead](What were you thinking?)
+
+::What were you thinking?
+You close your eyes and lie completely still pretending to be dead. The dragon however is hungry, and decides to take a bite out of you, killing you instantly.
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[What was i thinking?](Death)
+
+::Dead Dragon
+You plunge your sword deep into the dragon and it silently falls to the ground. You are badly beaten, but the dragon has been defeated! As you look ahead, you see a chest, and a rope leading up to an exit.
+|/images/passageImages/passageContentImages/chest.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Open the chest](Victory Chest)
+[Im going home immediately](Rope)
+
+::Victory Chest
+You open the chest and see a beautiful gem inside.
+|/images/passageImages/passageContentImages/gem.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[This will sell for a fortune!](Rope)
+{InventoryAction:gem}
+[I'll leave it here](Rope)
+
+::Rope
+You climb up the rope and out of the cave. This adventure surely has been one to remember.
+^/images/passageImages/passageBackgroundImages/mountain.png^
+[I'm going home!](Home)
+{ScoreAction:100}
+{GoldAction:100}
+
+::Home
+Congratulations, you have completed the story!
+^/images/passageImages/passageBackgroundImages/mountain.png^
+[Back to the beginning](Entrance)

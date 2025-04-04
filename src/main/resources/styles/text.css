@@ -1,0 +1,55 @@
+@font-face {
+  src: url('../fonts/BreatheFireIii-PKLOB.ttf');
+}
+
+.largeText {
+  -fx-font-size: 64;
+  -fx-font-family: 'Breathe Fire III';
+  -fx-effect: dropshadow(three-pass-box, #ffea73, 10, 0.78, 0, 0)
+}
+
+.continueText {
+  -fx-font-size: 64;
+  -fx-font-family: 'Breathe Fire III';
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 10, 0.5, 0, 0)
+}
+
+.textField {
+  -fx-background-image: url("../images/textures/woodtexture.png");
+  -fx-pref-height: 64;
+  -fx-padding: 1, 1, 1, 15;
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 20, 0.5, 0, 0)
+}
+
+.textFieldText {
+  -fx-font-size: 36;
+  -fx-font-family: 'Breathe Fire III';
+  -fx-highlight-text-fill: #383434;
+}
+
+.textFieldText .text {
+  -fx-text-fill: #383434;
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 20, 0.5, 0, 0)
+}
+
+.textFieldText .label {
+  -fx-text-fill: #383434;
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 20, 0.5, 0, 0)
+}
+
+.textParagraph {
+  -fx-font-size: 36;
+  -fx-font-family: 'Breathe Fire III';
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 10, 0.5, 0, 0)
+}
+
+.actionText {
+  -fx-font-size: 32;
+  -fx-font-family: 'Breathe Fire III';
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 10, 0.5, 0, 0)
+}
+
+.actionText .text {
+  -fx-text-fill: #383434;
+  -fx-effect: dropshadow(three-pass-box, #ffffff, 20, 0.5, 0, 0)
+}

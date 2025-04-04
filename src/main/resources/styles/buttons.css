@@ -1,0 +1,13 @@
+.transparentButton {
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat;
+  -fx-border: none;
+  -fx-cursor: pointer;
+  -fx-overflow: hidden;
+  -fx-outline: none;
+  -fx-border-radius: 16px;
+}
+
+.transparentButton:hover {
+  -fx-border-color: white;
+}

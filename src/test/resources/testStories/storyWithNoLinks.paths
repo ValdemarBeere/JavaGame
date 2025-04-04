@@ -1,0 +1,19 @@
+Mysterious Forest
+
+::Entrance
+You find yourself at the entrance of a mysterious forest. There are two paths ahead.
+|/images/passageImages/passageContentImages/crackleClaw.png|
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Take the left path](Left Path)
+{InventoryAction:gem}
+[Take the right path](Right Path)
+
+::Left Path
+You follow the left path and find a small pond.
+|/images/passageImages/passageContentImages/cultist.png|
+^/images/passageImages/passageBackgroundImages/pond.png^
+
+
+
+
+

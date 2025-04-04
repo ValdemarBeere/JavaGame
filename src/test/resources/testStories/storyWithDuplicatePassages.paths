@@ -1,0 +1,67 @@
+Mysterious Forest
+
+::Entrance
+You find yourself at the entrance of a mysterious forest. There are two paths ahead.
+|/images/passageImages/passageContentImages/crackleClaw.png|
+^/images/passageImages/passageBackgroundImages/magicalForest.png^
+[Take the left path](Left Path)
+{InventoryAction:gem}
+[Take the right path](Right Path)
+
+::Left Path
+You follow the left path and find a small pond.
+|/images/passageImages/passageContentImages/cultist.png|
+^/images/passageImages/passageBackgroundImages/pond.png^
+[Take a closer look at the pond](Pond)
+{GoldAction:50}
+[Go back](Entrance)
+
+
+::Right Path
+You follow the right path and find a mysterious cave.
+|/images/passageImages/passageContentImages/ogre.png|
+^/images/passageImages/passageBackgroundImages/caveEntrance.png^
+[Enter the cave](Cave)
+[gem}
+[Go back](Entrance)
+
+::Pond
+As you approach the pond, you notice a shiny object in the water.
+|/images/passageImages/passageContentImages/draugr.png|
+^/images/passageImages/passageBackgroundImages/pond.png^
+[Reach for the shiny object](Shiny Object)
+[Go back](Left Path)
+
+::Cave
+The cave is dark and filled with strange noises. You can barely see anything.
+|/images/passageImages/passageContentImages/ogre.png|
+^/images/passageImages/passageBackgroundImages/darkCave.png^
+[Proceed further into the cave](Deeper Cave)
+[Go back](Right Path)
+
+::Shiny Object
+You reach into the water and pull out a beautiful gem. It's worth a fortune!
+|/images/passageImages/passageContentImages/gem.png|
+^/images/passageImages/passageBackgroundImages/pond.png^
+[Go back](Pond)
+
+::Deeper Cave
+As you proceed further, you encounter a fearsome dragon!
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Face the dragon](Dragon)
+[Run away](Cave)
+
+::Deeper Cave
+As you proceed further, you encounter a fearsome dragon!
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Face the dragon](Dragon)
+[Run away](Cave)
+
+::Dragon
+You bravely face the dragon and emerge victorious!
+|/images/passageImages/passageContentImages/dragon.png|
+^/images/passageImages/passageBackgroundImages/lavaCave.png^
+[Leave the cave](Entrance)
+

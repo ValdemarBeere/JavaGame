@@ -1,0 +1,39 @@
+Mysterious Forest
+
+::Entrance
+You find yourself at the entrance of a mysterious forest. There are two paths ahead.
+[Take the left path](Left Path)
+[Take the right path](Right Path)
+
+::Left Path
+You follow the left path and find a small pond.
+[Take a closer look at the pond](Pond)
+[Go back](Entrance)
+
+::Right Path
+You follow the right path and find a mysterious cave.
+[Enter the cave](Cave)
+[Go back](Entrance)
+
+::Pond
+As you approach the pond, you notice a shiny object in the water.
+[Reach for the shiny object](Shiny Object)
+[Go back](Left Path)
+
+::Cave
+The cave is dark and filled with strange noises. You can barely see anything.
+[Proceed further into the cave](Deeper Cave)
+[Go back](Right Path)
+
+::Shiny Object
+You reach into the water and pull out a beautiful gem. It's worth a fortune!
+[Go back](Pond)
+
+::Deeper Cave
+As you proceed further, you encounter a fearsome dragon!
+[Face the dragon](Dragon)
+[Run away](Cave)
+
+::Dragon
+You bravely face the dragon and emerge victorious!
+[Leave the cave](Entrance)
